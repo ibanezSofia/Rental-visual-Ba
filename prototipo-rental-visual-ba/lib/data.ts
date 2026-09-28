@@ -1,13 +1,13 @@
 export type Categoria =
   | "Cámaras"
-  | "Ópticas"
+  | "Lentes/Ópticas"
   | "Sonido"
   | "Iluminación"
   | "Generadores"
 
 export const CATEGORIAS: Categoria[] = [
   "Cámaras",
-  "Ópticas",
+  "Lentes/Ópticas",
   "Sonido",
   "Iluminación",
   "Generadores",
@@ -113,7 +113,7 @@ export const EQUIPOS: Equipo[] = [
     id: "opt-001",
     codigo: "OPT-B-014",
     nombre: "Set Sigma Cine 24-35-50mm",
-    categoria: "Ópticas",
+    categoria: "Lentes/Ópticas",
     imagen: img.optica,
     precioDia: 31000,
     descripcion:
@@ -132,7 +132,7 @@ export const EQUIPOS: Equipo[] = [
     id: "opt-002",
     codigo: "OPT-B-021",
     nombre: "Canon CN-E 70-200mm",
-    categoria: "Ópticas",
+    categoria: "Lentes/Ópticas",
     imagen: img.optica,
     precioDia: 27000,
     descripcion:
