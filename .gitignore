@@ -10,6 +10,9 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+# next.js
+.next/
+
 dist/
 build/
 out/
